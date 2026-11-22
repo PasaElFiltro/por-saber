@@ -37,7 +37,7 @@ Copies: each copied file opens with a header naming the commit it was copied fro
 ## Elsewhere
 
 - Preprint: Pitronello, R. (2026). Instances of the Same LLM Were Not Interchangeable Raters Where the Task Required Judgment. https://doi.org/10.5281/zenodo.24447506
-- Preregistration and materials: https://osf.io/zusb5 · https://osf.io/ue4qy
+- Registered analysis plan and materials: https://osf.io/zusb5 · https://osf.io/ue4qy
 - Romina Pitronello: https://rominapitronello.github.io/ · https://github.com/rominapitronello · https://orcid.org/0009-0005-5159-6339
 
 ## What is not here

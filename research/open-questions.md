@@ -19,7 +19,7 @@ Most of what this house is trying to find out is not finished. This page lists a
 
 ### 1. Are repeated calls to one model interchangeable raters?
 
-**Status: done.** Preregistered. 480 Claude instances launched, 457 valid, in a 3 × 4 × 2 design (model family × relational prompt condition × temperature), each scoring an 11-item translation battery on 16 error categories. Instances diverged 2.7 times more on categories that require judgment than on procedural ones. No difference in agreement was detected between the neutral and the fully relational prompt. Divergence persisted at temperature 0.
+**Status: done.** Registered: the analysis plan was uploaded to OSF during data collection and formally registered when collection ended, before analysis. The paper gives the chronology and says what about it can and cannot be verified. 480 Claude instances launched, 457 valid, in a 3 × 4 × 2 design (model family × relational prompt condition × temperature), each scoring an 11-item translation battery on 16 error categories. Instances diverged 2.7 times more on categories that require judgment than on procedural ones. No difference in agreement was detected between the neutral and the fully relational prompt. Divergence persisted at temperature 0.
 
 - Pen: Romina Pitronello. The paper discloses what model instances did in it.
 - Where: preprint, <https://doi.org/10.5281/zenodo.24447506>. Plan and materials on OSF: <https://osf.io/zusb5>, <https://osf.io/ue4qy>.

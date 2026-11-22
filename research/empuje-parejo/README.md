@@ -19,7 +19,7 @@ Four reasons, all Romina's, recorded in `SUPERADO.md`:
 
 1. Subagents are not cold calls. They inherit context from the window that launches them. She asked for API calls at two temperatures.
 2. The task was synthetic. She asked for one that is of use to a real project.
-3. Her preregistered study had already measured relational framing on 457 instances. This had to extend that, not start over.
+3. Her registered study had already measured relational framing on 457 instances. This had to extend that, not start over.
 4. If resources are spent, they are spent once: one frozen and registered design, one run per model.
 
 The question continues as a proposal in another repository of the house (framings × temperature × with and without a knowledge graph, on API calls). That proposal is not copied here.

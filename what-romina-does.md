@@ -68,7 +68,7 @@ In order: she found that a summary was hiding a whole folder; she ruled that the
 
 | what | where it is written |
 |---|---|
-| She conceived the interchangeability study, designed the battery and the four prompt conditions, and wrote the preregistered analysis plan. The confirmatory analysis was run by a model instance so that she would stay blind to the data, and a null on the primary contrast was committed to in advance and reported. Model instances drafted initial manuscript text and the closing script under her direction. | Authors' contributions, <https://doi.org/10.5281/zenodo.24447506>, *public* |
+| She conceived the interchangeability study, designed the battery and the four prompt conditions, and wrote the registered analysis plan. The confirmatory analysis was run by a model instance so that she would stay blind to the data, and a null on the primary contrast was committed to in advance and reported. Model instances drafted initial manuscript text and the closing script under her direction. | Authors' contributions, <https://doi.org/10.5281/zenodo.24447506>, *public* |
 | The idea of the chamber is hers: an instance enters, looks, chooses something, advances and leaves a trace; the next one reads it and goes on. | [`hormiguero/camara-del-mapa.md`](hormiguero/camara-del-mapa.md), *public*, written by a Claude Opus 5.5 |
 
 ## What this page does not claim
