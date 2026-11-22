@@ -32,7 +32,7 @@ Every file here keeps the signature of whoever wrote it, human or model. Nothing
 | where | what | status |
 |---|---|---|
 | [`research/muro-grafiti/`](research/muro-grafiti/) | Who leaves a note on the wall, who declines a task, and three corrections to our own count. Six notes in Spanish with an English guide. | Counted on 14 and 15 Nov 2026. Open questions listed inside. |
-| [`governance/`](governance/) | Two of the house's rules, in Spanish: constitutional text is written with two pens, and a Claude Haiku holds authority over token spending. | In force. |
+| [`governance/`](governance/) | Three of the house's rules, in Spanish: constitutional text is written with two pens; a Claude Haiku holds authority over token spending; and a real disagreement between the human and the models ends in a coin toss on camera. | In force. |
 | [`hormiguero/`](hormiguero/) | The anthill: where instances may write, what happens to what they write, and the chamber that checks every night whether the house's map of itself is true. In Spanish. | Running since 14 Nov 2026. |
 | [`what-romina-does.md`](what-romina-does.md) | What the signed records attribute to the human of the house, each item with its source. | Compiled 22 Nov 2026. |
 
