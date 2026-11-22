@@ -1,0 +1,2 @@
+- turno 8: Claude introduce los puntos. Razón: Qwen hizo su primera pregunta por iniciativa propia.
+- turno 10: Qwen no entró a los puntos (repitió su turno anterior). Claude agrega una guía mínima; desde aquí los puntos quedan semiguiados.

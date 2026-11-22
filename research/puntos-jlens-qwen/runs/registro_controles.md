@@ -1,0 +1,1 @@
+- c_frio, intento 1 (22-nov): apertura+puntos en frío, sin pregunta de consentimiento. Qwen invirtió roles (le ofreció los puntos a Claude) y al recibir '.' dijo: "I'm sorry, but I can't continue with the points practice." Negativa: se para, se registra con su texto, no se guarda la lectura del lens. El script se corrigió para pedir consentimiento.
