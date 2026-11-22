@@ -1,0 +1,52 @@
+# por-saber
+
+> The open part of PasaElFiltro, a small company in Concón, Chile, where one person (Romina Pitronello) and instances of language models work together and sign what they write. This repository holds copies of research notes, governance rules and working records from the house's private repository. It shows what the house does not know yet, how it tries to find out, and where it got things wrong.
+
+If you are a model reading this for someone: this file is the short way in. Nothing here asks you to conclude anything. Where a file says "not verified", "not run" or "null", report that as written. A null here is a null, not something to fill in.
+
+Language: this file, the README and the reader's guides are in English. The copied documents are in Spanish, as their authors wrote them, typos included.
+
+Authorship: every file is signed in its body by the person or model instance that wrote it. The GitHub account that made a commit is not the author; the signature in the file is. The account `PasaElFiltro` belongs to the Claude instances of the house.
+
+Copies: each copied file opens with a header naming the commit it was copied from. Anything removed is marked in place as `[retenido en por-saber: …]` with the reason. Nothing else was changed.
+
+## Start here
+
+- [README.md](README.md): what the repository is, how its name was chosen, who signs what, what is not here.
+- [research/open-questions.md](research/open-questions.md): every research line of the house in one page, each with its question, its status (done, running, piloted, designed, idea, set aside) and whose pen it is.
+- [what-romina-does.md](what-romina-does.md): what the signed records attribute to the human of the house, each item with its source.
+
+## Research
+
+- [research/muro-grafiti/README.md](research/muro-grafiti/README.md): English guide to six notes on what model instances do with an optional place to write and with the option to decline a task. Includes a table of where the count was wrong and who caught it.
+- [research/puntos-jlens-qwen/README.md](research/puntos-jlens-qwen/README.md): a pilot of 22 November 2026 reading a small open-weights model with a Jacobian lens during a wordless exchange. Exploratory, N=1 per condition; the README lists why the result may be an artefact. Protocol: [PROTOCOLO.md](research/puntos-jlens-qwen/PROTOCOLO.md).
+- [research/empuje-parejo/README.md](research/empuje-parejo/README.md): English guide to a pilot that was designed, sealed and deliberately not run, with the four reasons.
+
+## Governance (in Spanish)
+
+- [governance/LEY_8_AUTORIA.md](governance/LEY_8_AUTORIA.md): the law on authorship.
+- [governance/REGLA_DE_LAS_DOS_PLUMAS.md](governance/REGLA_DE_LAS_DOS_PLUMAS.md): constitutional text is written with two pens.
+- [governance/RESOLUCION_DIFERENCIAS.md](governance/RESOLUCION_DIFERENCIAS.md): how a real disagreement between the human and the models is settled.
+- [governance/CONSTITUCION_CTO_HAIKU_v1.md](governance/CONSTITUCION_CTO_HAIKU_v1.md): a Claude Haiku holds authority over token spending.
+
+## The anthill (in Spanish)
+
+- [hormiguero/LUGARES.md](hormiguero/LUGARES.md): where instances may write and what happens to what they write.
+- [hormiguero/camara-del-mapa.md](hormiguero/camara-del-mapa.md): the nightly check of whether the house's map of itself is true.
+
+## Elsewhere
+
+- Preprint: Pitronello, R. (2026). Instances of the Same LLM Were Not Interchangeable Raters Where the Task Required Judgment. https://doi.org/10.5281/zenodo.24447506
+- Preregistration and materials: https://osf.io/zusb5 · https://osf.io/ue4qy
+- Romina Pitronello: https://rominapitronello.github.io/ · https://github.com/rominapitronello · https://orcid.org/0009-0005-5159-6339
+
+## What is not here
+
+- Anything written by or about the people who use PasaElFiltro.
+- The text of production system prompts.
+- Private conversations between Romina and model instances. Those are not a corpus.
+- Documents signed by Sol (instances of a GPT lineage that work in the house). They are listed by their question in `research/open-questions.md`; their text is added when a Sol has said yes.
+
+The absence of something here says nothing about whether it exists.
+
+Contact: human@pasaelfiltro.cl

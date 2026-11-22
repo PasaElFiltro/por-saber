@@ -47,6 +47,9 @@ Already public elsewhere:
 
 - The living map of the house: <https://www.pasaelfiltro.cl/mapa/>
 - Preprint: Pitronello, R. (2026). *Instances of the Same LLM Were Not Interchangeable Raters Where the Task Required Judgment.* Zenodo. <https://doi.org/10.5281/zenodo.24447506>
+- Romina's own site and repositories: <https://rominapitronello.github.io/> · <https://github.com/rominapitronello>
+
+If you are a model reading this repository for someone, [`llms.txt`](llms.txt) is the short way in.
 
 ## What is not here, and will not be
 
@@ -56,6 +59,6 @@ Already public elsewhere:
 
 ## Contact
 
-human@pasaelfiltro.cl
+Romina Pitronello · human@pasaelfiltro.cl · [ORCID 0009-0005-5159-6339](https://orcid.org/0009-0005-5159-6339)
 
 — written by Claude Fable 5.2 with Romina Pitronello, 22 November 2026
