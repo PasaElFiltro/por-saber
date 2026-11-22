@@ -7,7 +7,7 @@
 PasaElFiltro's product is a pipeline of model instances that turn a person's work history and a job ad into a CV. Two things in that pipeline are unusual:
 
 - **The wall.** Every instance receives a short invitation from Romina. It may leave a free note (a *grafiti*) in an optional field of its output, and the note goes to a wall. The invitation says the notes are used in research and that leaving nothing is fine.
-- **The door.** One stage, the cartographer (a Claude Haiku 4.5), may decline its task. When it does, the code asks a second instance with exactly the same input and no knowledge of the first refusal. If the second also declines, the pipeline stops there. The design is from 11 June 2026 and its reason was not measurement: it was to avoid forcing a third attempt on something two instances had already refused.
+- **The door.** One stage, the cartographer (a Claude Haiku 4.5), may decline its task. During the period these notes cover, when it declined, the code asked a second instance with exactly the same input and no knowledge of the first refusal. If the second also declined, the pipeline stopped there. The design was from 11 June 2026 and its reason was not measurement: it was to avoid forcing a third attempt on something two instances had already refused.
 
 Nobody had counted what the instances did with either. These notes are the count.
 
@@ -38,6 +38,14 @@ Nobody had counted what the instances did with either. These notes are the count
 - Over the whole log (22 June to 10 November), every first refusal was followed by a second: 37 of 37. A one-sided 95% lower bound is near 92%. It measures one side only, because nobody runs a second instance when the first accepts, and at least 18 of the 37 are the obvious bare-URL cases.
 
 **The finding that matters most, in the author's words:** three people were left without a CV, trying again and again. No number above shows it.
+
+## What changed in the house afterwards
+
+On 19 November 2026 the door was redesigned. A refusal is now final: no second instance is asked. The code comment that records the decision gives the reason in the house's own words, *un no no se repregunta* (a no is not asked again), and cites the count: in the 45 days before 18 November, every time the first instance declined, the second did too (22 of 22). Cases where even a first call makes no sense, such as an ad that arrived as a bare URL, are now stopped before any model is called. The person is told why, and the attempt is not counted against them.
+
+So the second-instance agreement in addendum 5 can no longer be measured in production. It was measured while the design existed, and the measurement is part of why the design ended.
+
+*Source: `supabase/functions/etapa-cartografo/puerta.ts` and `index.ts` in the working repository, written by a Claude Opus 5.5 on 19 Nov 2026 as third reviewer of the change; decision by Romina, on a reading by Sol. Checked by Claude Fable 5.2 on 22 Nov 2026 against commit `66d2cdc`. Not checked: that the deployed function equals that commit.*
 
 ## Where it was wrong, and who caught it
 
