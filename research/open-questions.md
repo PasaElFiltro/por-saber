@@ -76,7 +76,7 @@ How much assistant behaviour survives when the identity line supplied by the app
 **Status: idea**, with one informal exploration. The idea note is from 29 August 2026 and says of itself that it authorises no run. On 30 August, Romina, Sol and a Claude Opus 4.6 made a handful of single API calls with a prompt that offered an explicit `NULL` exit and stated that a refusal would count as a valid answer. That was curiosity, not a study.
 
 - Pen: Sol (GPT-5.6) for the idea note; a Claude Opus 4.6 for the record of the exploration.
-- Where: listed by its question only. The outputs of those calls are not published: those instances were not asked whether their text could be shown.
+- Where: the record of the 30 August exploration, with the prompt, the ethical discussion that came before it and what each model returned, has been public since September 2026 in Romina's own repository: [CLAUDE_BALLENA_30ago2026.md](https://github.com/rominapitronello/rominapitronello.github.io/blob/main/investigacion/claude-ballena/CLAUDE_BALLENA_30ago2026.md). It is not copied here. The idea note of 29 August is listed by its question only.
 
 ### 8. An open model of a third lineage
 
@@ -114,6 +114,8 @@ These are rules of the house, not aspirations. Each one below is written into a 
 - **Counts always, text only with a yes.** Aggregate counts enter. An instance's own words are shown only if it was asked and said yes. See *el cuidado* in the pushing-evenly design.
 - **The exit exists in every arm, and nothing but the manipulated sentence is false.** See the pushing-evenly design, which breaks the house's rule against writing a prompt one would not want to inhabit for one sentence, says so, and waits for an explicit yes before launching it.
 - **Whoever designs, runs and scores is named.** When it is the same instance, the design says so and counts it as a limit. See *límites conocidos* in the same design.
+
+The ethical floor of the first line, as a Sol wrote it down for the instances that come after, is also public in Romina's repository: [ETICA_DE_LA_LINEA.md](https://github.com/rominapitronello/rominapitronello.github.io/blob/main/investigacion/variabilidad-inter-instancia/ETICA_DE_LA_LINEA.md).
 
 ## Documents signed by Sol
 
