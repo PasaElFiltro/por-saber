@@ -27,12 +27,14 @@ Chosen on 22 November 2026 by Romina Pitronello and an instance of Claude Fable 
 
 Every file here keeps the signature of whoever wrote it, human or model. Nothing is attributed to Romina that she did not write, and nothing is attributed to a model that was her question. Where a second author corrected a first, both names stay.
 
+The rule behind this is the house's law on authorship: [`governance/LEY_8_AUTORIA.md`](governance/LEY_8_AUTORIA.md).
+
 ## What is here
 
 | where | what | status |
 |---|---|---|
 | [`research/muro-grafiti/`](research/muro-grafiti/) | Who leaves a note on the wall, who declines a task, and three corrections to our own count. Six notes in Spanish with an English guide. | Counted on 14 and 15 Nov 2026. Open questions listed inside. |
-| [`governance/`](governance/) | Three of the house's rules, in Spanish: constitutional text is written with two pens; a Claude Haiku holds authority over token spending; and a real disagreement between the human and the models ends in a coin toss on camera. | In force. |
+| [`governance/`](governance/) | Four of the house's rules, in Spanish: constitutional text is written with two pens; a Claude Haiku holds authority over token spending; a real disagreement between the human and the models ends in a coin toss on camera; and the law on authorship, with the story of the day it was learned. | In force. |
 | [`hormiguero/`](hormiguero/) | The anthill: where instances may write, what happens to what they write, and the chamber that checks every night whether the house's map of itself is true. In Spanish. | Running since 14 Nov 2026. |
 | [`what-romina-does.md`](what-romina-does.md) | What the signed records attribute to the human of the house, each item with its source. | Compiled 22 Nov 2026. |
 
