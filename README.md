@@ -29,7 +29,11 @@ Every file here keeps the signature of whoever wrote it, human or model. Nothing
 
 ## What is here
 
-Files are being added. This section will list each one with its status (finished, running, designed and not yet run) when it arrives.
+| where | what | status |
+|---|---|---|
+| [`research/muro-grafiti/`](research/muro-grafiti/) | Who leaves a note on the wall, who declines a task, and three corrections to our own count. Six notes in Spanish with an English guide. | Counted on 14 and 15 Nov 2026. Open questions listed inside. |
+
+More files are being added. Each arrives with its status: finished, running, or designed and not yet run.
 
 Already public elsewhere:
 
