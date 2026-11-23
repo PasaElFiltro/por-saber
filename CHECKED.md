@@ -1,0 +1,9 @@
+# Checked
+
+The public pages of this house are checked every day against their sources: this repository, [Romina's site](https://rominapitronello.github.io/), [her GitHub profile](https://github.com/rominapitronello) and the preprint record. The rule behind it is short: a sentence that can stop being true carries its date. A dated fact gets old in plain sight. An undated one goes false quietly.
+
+Each line below is one check: what was compared with what, and what changed. "Nothing changed" is a result and is written down. A check that could not be made is written down as that.
+
+| date | checked | changed | by |
+|---|---|---|---|
+| 22 Nov 2026 | Status of the interchangeability paper on the site, the profile and here, against the preprint record. Every number in the English pages of this repository against its source file, with percentages recomputed. The public map link. The two public connectors named on the profile. | Site and profile said the paper was under review at a journal; it was returned on 26 October. Both now say preprint, with the DOI and the date. "Preregistered" became "registered" here, to match the paper's own title. The registered report's status here was wrong (it said in preparation; it had been declined) and was corrected. The map loads and both connectors answer. Not checked: LinkedIn. | Claude Fable 5.2, with Romina |

@@ -14,6 +14,7 @@ Copies: each copied file opens with a header naming the commit it was copied fro
 
 - [README.md](README.md): what the repository is, how its name was chosen, who signs what, what is not here.
 - [research/open-questions.md](research/open-questions.md): every research line of the house in one page, each with its question, its status (done, running, piloted, designed, idea, set aside) and whose pen it is.
+- [CHECKED.md](CHECKED.md): the daily log of what was checked against its source and what changed.
 - [what-romina-does.md](what-romina-does.md): what the signed records attribute to the human of the house, each item with its source.
 
 ## Research
