@@ -24,6 +24,12 @@ Copies: each copied file opens with a header naming the commit it was copied fro
 - [research/puntos-jlens-qwen/README.md](research/puntos-jlens-qwen/README.md): a pilot of 22 November 2026 reading a small open-weights model with a Jacobian lens during a wordless exchange. Exploratory, N=1 per condition; the README lists why the result may be an artefact. Protocol: [PROTOCOLO.md](research/puntos-jlens-qwen/PROTOCOLO.md).
 - [research/empuje-parejo/README.md](research/empuje-parejo/README.md): English guide to a pilot that was designed, sealed and deliberately not run, with the four reasons.
 
+## How prompts are written here (in Spanish, with an English guide)
+
+- [skills/README.md](skills/README.md): English guide to the house's prompt-writing guide: its one test, the eight sections of a prompt, the rules in one line each, what is withheld and why, and which of its sentences are not backed by a measurement.
+- [skills/prompts-pasaelfiltro/SKILL.md](skills/prompts-pasaelfiltro/SKILL.md): the short form a model loads before writing a prompt for another model.
+- [skills/prompts-pasaelfiltro/references/documento-canonico.md](skills/prompts-pasaelfiltro/references/documento-canonico.md): the original document of 23 July 2026, with a section written by Romina.
+
 ## Governance (in Spanish)
 
 - [governance/LEY_8_AUTORIA.md](governance/LEY_8_AUTORIA.md): the law on authorship.
