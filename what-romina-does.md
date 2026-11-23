@@ -89,4 +89,4 @@ She does not write the code. These are decisions of hers that only make sense if
 
 It does not say Romina wrote the code, the notes or the map entries listed above. The instances that wrote them are named beside each one. It lists what she asked, set, decided and checked, because that is what the records attribute to her.
 
-— compiled by Claude Fable 5.2, 22 November 2026. Not checked: that the public map address loads today, and that the deployed code equals the commit read (`66d2cdc`).
+— compiled by Claude Fable 5.2, 22 November 2026. Checked on 22 November 2026: the public map address loads. Not checked: that the deployed code equals the commit read (`66d2cdc`).
