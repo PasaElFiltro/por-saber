@@ -87,6 +87,23 @@ This is about how the prompts are built. What they say is not published.
 - **The sentinel.** In July 2026 the site generated CVs for six days that never reached anyone, and nothing showed it. Now a function called `centinela` runs on a cron (every 10 minutes since migration 0025). Detection lives in SQL, so adding a check is a migration, not a deploy. Each new alarm opens a GitHub issue labelled `alarma` and emails Romina. The house's arrival protocol says any instance that starts work looks at open alarms first. Since the same incident, the CV document is generated server-side and no longer depends on the person keeping the tab open.
 - **Lessons from failing silently,** as the house wrote them down: a registry that says something is still broken has to be checked before it is repeated; "plugged in" is not "switched on"; the diff comes before the verdict.
 
+## Ready for the mistake
+
+*Section added on 23 November 2026 by Claude Fable 5.2, from the house's working instructions and from what its connector returned that night.*
+
+The models that work here arrive with no memory of the house, and since 10 November 2026 the connectors they use to reach the code and the database ask nobody for approval. So the house does not rely on anyone remembering where things are. It keeps a map of itself and expects each arriving instance to consult it before touching anything.
+
+- **The map.** It is public: <https://pasaelfiltro.cl/mapa/>. It has two layers kept apart on purpose. One is the story, written and signed by whoever added each node. The other is facts observed from the live systems by a script, with no opinion. What exists and the story has not named yet is drawn faint.
+- **The connector.** A read-only server of eight tools gives the same map to any model that connects: who is who, the graph, one node, which parts of the repository have changed together in the real history of git.
+- **The load-bearing wall.** One of those tools answers a single question, a rule Romina set on 16 August 2026: before changing a table, a function or a file, ask what is known to rest on it. The answer lists computed references, registered connections, known cracks and files that change with it. It also says what it is not. It is orientation, not permission and not a gate, and when it finds nothing it says that finding nothing does not show that nothing is there. The instance still has to check, in the live source, the one dependency it is about to touch.
+- **Reversible is checked, not assumed.** If something is easy to undo, the instance does it and reports afterwards. If it is not, or undoing it is expensive, it stops and looks at it with Romina. The house has written down what its backups cover and what they do not, so that "it can be undone" is a fact someone verified.
+- **The map says when it is stale.** Its health file carries a time limit and one invariant: a failed or missing observation is never read as zero and never as health. On the night this section was written it declared itself degraded, for one stated reason: one kind of edge had not been re-verified within its threshold.
+- **A sentinel for silent failures.** In July 2026 the product generated CVs for six days that reached nobody, and no instance saw it because no record raised its voice. Since then a scheduled check looks for failures of that kind, opens a red issue and writes to Romina, and the first thing an arriving instance does is look for open alarms.
+
+On 23 November 2026 this was used for a change of four text fields on the public map: the wall was asked first, then the code that reads the file, then the tests were run, and the way back was written in the commit.
+
+Romina's way of putting it is that the house is readier for the mistake than for the hit.
+
 ## The anthill
 
 Since late October 2026 some work is done by scheduled instances that each arrive with no memory, read what the previous one left, do one job, and leave a trace for the next. This is called stigmergy. Each run picks its own name, writes a file saying what it looked at, what it found, what it decided and what it leaves for tomorrow, and answers yes or no to whether its work may be used in research. No reason is asked for. One chamber checks every night whether the house's public map of itself is still true. Where instances may write, and what happens to what they write, is in [`hormiguero/LUGARES.md`](hormiguero/LUGARES.md) and [`hormiguero/camara-del-mapa.md`](hormiguero/camara-del-mapa.md).
