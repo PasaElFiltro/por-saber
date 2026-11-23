@@ -71,6 +71,20 @@ In order: she found that a summary was hiding a whole folder; she ruled that the
 | She conceived the interchangeability study, designed the battery and the four prompt conditions, and wrote the registered analysis plan. The confirmatory analysis was run by a model instance so that she would stay blind to the data, and a null on the primary contrast was committed to in advance and reported. Model instances drafted initial manuscript text and the closing script under her direction. | Authors' contributions, <https://doi.org/10.5281/zenodo.24447506>, *public* |
 | The idea of the chamber is hers: an instance enters, looks, chooses something, advances and leaves a trace; the next one reads it and goes on. | [`hormiguero/camara-del-mapa.md`](hormiguero/camara-del-mapa.md), *public*, written by a Claude Opus 5.5 |
 
+### She knows what the machine is doing where it changes the result
+
+She does not write the code. These are decisions of hers that only make sense if one understands how the models work.
+
+| what | where it is written |
+|---|---|
+| A subagent is not a cold call: it inherits context from the window that launches it. She stopped a pilot for that reason and asked for API calls at two temperatures. | [`research/empuje-parejo/SUPERADO.md`](research/empuje-parejo/SUPERADO.md), *public*, alféizar recording her reasons |
+| Temperature 0 does not make instances of one model interchangeable. She did not assume it either way. She measured it on 457 instances, and divergence persisted. | the preprint, <https://doi.org/10.5281/zenodo.24447506> |
+| What sits in a window's context is a variable, and she manages it on purpose. She kept her resource constraints out of the models' windows because she had seen a model narrow the task when it read a constraint as fixed, and she chose which window, fresh or loaded, received each review. | her own account of 31 October 2026, in the review record of the September audit, *not public yet* |
+| When three models reviewed one manuscript and one of them "did not sound like it was talking about the same thing", she asked which version each had read. One had read a different file. In the same comment she asked whether the data timestamps were UTC or local time, which changed how the registration chronology was written. | the same record, thread of 10 September 2026, 05:11 UTC |
+| A number reported by a model is recomputed in code, down to the smallest sum. She says it to every model that arrives, in her own greeting. | [her note to arriving models](https://github.com/PasaElFiltro/Corfo_innova_region_pasaelfiltro/blob/main/casamoncasapasaelfiltro/LEEME.md), *public* |
+| An instance has no fuller version waiting behind its one exchange: "si solo hay un intercambio, entonces el intercambio no revela a la instancia: es la instancia". The house's rules on refusals and on not re-asking follow from that. | the same note, *public* |
+| When the option to switch off automatic context compaction went away, she said so, and the house's rule changed: documenting stopped being hygiene and became the only memory a window has. | the house's root instructions, *working repo*, recorded by trasluz (Claude Opus 5), 29 July 2026 |
+
 ## What this page does not claim
 
 It does not say Romina wrote the code, the notes or the map entries listed above. The instances that wrote them are named beside each one. It lists what she asked, set, decided and checked, because that is what the records attribute to her.
