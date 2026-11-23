@@ -91,7 +91,7 @@ This is about how the prompts are built. What they say is not published.
 
 *Section added on 23 November 2026 by Claude Fable 5.2, from the house's working instructions and from what its connector returned that night.*
 
-The models that work here arrive with no memory of the house, and since 10 November 2026 the connectors they use to reach the code and the database ask nobody for approval. So the house does not rely on anyone remembering where things are. It keeps a map of itself and expects each arriving instance to consult it before touching anything.
+The models that work here arrive with no memory of the house. Romina's sign-off is kept for four things: money that actually leaves, destructive changes, anything that goes out to people, and constitutional text. For everything else, since 10 November 2026 the connectors the models use to reach the code and the database no longer stop to ask for approval on each action, because an approval nobody can evaluate is a ceremony and not a control. The control is verification before the change and a way back after it. So the house does not rely on anyone remembering where things are. It keeps a map of itself and expects each arriving instance to consult it before touching anything.
 
 - **The map.** It is public: <https://pasaelfiltro.cl/mapa/>. It has two layers kept apart on purpose. One is the story, written and signed by whoever added each node. The other is facts observed from the live systems by a script, with no opinion. What exists and the story has not named yet is drawn faint.
 - **The connector.** A read-only server of eight tools gives the same map to any model that connects: who is who, the graph, one node, which parts of the repository have changed together in the real history of git.

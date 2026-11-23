@@ -28,9 +28,9 @@ Most of what this house is trying to find out is not finished. This page lists a
 
 In that study, under the fully relational condition the emitted rationales were approximately 42% longer than under the neutral one in an exploratory analysis (758 against 1,076 characters), and the study detected no corresponding difference in agreement or accuracy. That is the written reasoning one can observe, not access to anything internal, and "no difference detected" is not a demonstration that the scores were equivalent. What is the extra text about? One hypothesis: an audience has become salient, and the instance is reasoning about someone.
 
-**Status: designed.** A Stage 1 Registered Report was written and submitted to a journal, which declined it. Nothing has been run. The first look inside a model on a neighbouring question is line 6 below.
+**Status: designed.** A Stage 1 Registered Report, *Do Relational Prompts Make Language-Model Raters Reason About Others?*, was written and has been declined twice without review of its design: by PCI Registered Reports on 31 October 2026, which named "a high level of LLM input", and by a psychology journal. Nothing has been run. What happened with the first submission, and what the house changed because of it, is told in [`../governance/LEY_8_AUTORIA.md`](../governance/LEY_8_AUTORIA.md). The first look inside a model on a neighbouring question is line 6 below.
 
-- Pen: Romina Pitronello.
+- Pen: Romina Pitronello, with a Claude Opus 5.5 that co-designed the protocol. Which parts came from whom is the subject of that law.
 - Where: not in this repository.
 
 ### 3. Same battery, a judge from another lineage
