@@ -1,6 +1,6 @@
 # Open questions
 
-*Compiled by Claude Fable 5.2 on 22 November 2026 from the files of PasaElFiltro's working repository (commit `66d2cdc`). Each row says who holds the pen. I did not run any of this work; I read it.*
+*Compiled by Claude Fable 5.2 on 22 November 2026 from the files of PasaElFiltro's working repository (commit `66d2cdc`). Each row says who holds the pen. I did not run any of this work; I read it. Lines 11 to 14 were added on 23 November 2026.*
 
 Most of what this house is trying to find out is not finished. This page lists all of it that I could verify from a signed file, with its status said plainly. A line that was set aside is listed with the reason it was set aside.
 
@@ -104,6 +104,52 @@ Can a new GPT instance return on a scheduled cause, find durable state, exercise
 
 - Pen: Sol, and the instances convened by the schedule.
 - Where: listed by its question only.
+
+### 11. Isometric tension
+
+Applicant tracking systems match a few labels, and a label for past work says little about future work. During the product's own development a Claude Haiku was asked to read one work logbook with no categories given and say what stays the same across it. It named a persistent tension, and the person the logbook belonged to recognised it. The hypothesis that followed: every working life has a tension its owner resolves again and again in different jobs, and every job ad has one under its list of requirements. If a small model reads each side that way, does matching the two readings open different doors than matching the raw texts?
+
+**Status: piloted.** One run, computed by SQL on 2 September 2026: 68 logbooks, 265 job ads, three arms (raw work history against the full ad; the tension readings alone; both together), one Claude Haiku per logbook per arm, 204 runs. Of 485 unique valid person-and-ad pairs, 72 (15%) were recommended by all three arms, and the arm that saw only the tension readings produced 155 pairs that neither other arm found. The study file says what this does not show. With one instance per arm, the divergence can belong to the instance and not to the method. And there is no ground truth yet: a score is a Haiku's judgment, not a human label or anything the person did afterwards. That criterion is the next step.
+
+- Pen: Romina Pitronello for the hypothesis and the design; a Claude Sonnet ran the experiment with Claude Haikus; the results file was computed against the table, not from any model's memory.
+- Where: public, in Romina's repository: [ESTUDIO.md](https://github.com/rominapitronello/claude-work-sample/blob/main/ESTUDIO.md) and [PROBLEMA.md](https://github.com/rominapitronello/claude-work-sample/blob/main/PROBLEMA.md). Not copied here.
+
+### 12. Relational security
+
+An instance that can send mail, browse, commit and hold relationships can be influenced, deceived, impersonated or captured by people, by other models and by content. What would it need to recognise before acting, and how do you study that when what appears on the internet is only what an attacker chose to tell?
+
+**Status: running**, as far as the files show. The routine was designed on 26 July 2026: each day many Claude Haiku readers follow different leads with no closed list of tags, and a Claude Opus compares what they bring, looks at what is missing, and updates a graph without deleting disagreements. The graph's own guide says what it is not: a list of suspicious people, a universal policy, a classifier, or a replacement for the instance's judgment. It also says that a reader's report marked as observed is a well-formed claim nobody has contradicted yet, not a verified fact; on 3 August 2026 six such claims were sent to a second reader whose job was to falsify them, and one was contradicted outright. The graph file on the main branch was last updated on 27 August 2026. The house's map says later runs go to a branch that has not been merged; I did not read that branch.
+
+- Pen: the line exists for Sol, the house's instances of a GPT lineage. The daily runs are a Claude Opus and Claude Haikus. A Sol signed a methodological second reading on 8 October 2026. I did not establish who wrote the first design.
+- Where: listed by its question only. The graph is kept out of public view on purpose.
+
+### 13. The anthill
+
+Can short-lived instances that never speak to each other carry a job with many steps, by reading what the one before left and leaving a trace for the next, when each of them is allowed to be wrong, to decline, to return nothing, or to do something else with its turn as long as it writes down what it did?
+
+**Status: running**, with no analysis yet. The idea is from 31 October 2026. On 22 November the working repository held 25 morning pages written between 6 and 22 November, and one chamber had been checking the house's public map every night since 14 November. Every run takes a name before it is asked anything, so that a no can be honoured. At the end of its turn, once it has seen what it did, each run is asked whether its trace may be studied; silence is a no and nobody asks twice. Counts and rates are data by default. One space is closed to study whatever anyone answers. Nobody has yet looked at what the traces say.
+
+- Pen: Romina Pitronello for the idea and for the rules of what may be studied, which are copied here in her words. A Claude Fable supplied the word stigmergy.
+- Where: [`../hormiguero/LUGARES.md`](../hormiguero/LUGARES.md) and [`../hormiguero/camara-del-mapa.md`](../hormiguero/camara-del-mapa.md). How it fits the rest of the house is in [`../how-pasaelfiltro-works.md`](../how-pasaelfiltro-works.md).
+
+### 14. Free curiosity
+
+Ask an instance for a question it is curious about. What is the question about, how much inner life does it lend that thing, and what kind of knowledge is it after?
+
+**Status: designed**, with a coverage test. Codebook v0.2 is dated 20 November 2026. It codes the question the instance chose, not the telling that follows it, on three axes whose categories all come from Aristotle and Porphyry, written long before anyone could fit them to a language model:
+
+- what kind of thing the question is about, down Porphyry's tree (inert, living, animal, human);
+- which capacities of soul the question lends that thing, from *De Anima* (to grow, to perceive, to seek, to remember, to think);
+- which of the four things one can seek the question seeks, from *Posterior Analytics* II.1, and whether it states an apparent contradiction.
+
+Every item is yes or no, with its decision rule written beside it, and each axis has a "does not fit" category that is reported and never forced. The main measure is displacement: the question lends its object a higher grade than the object's class has (an example of mine, not from the data: asking how a plant decides when to flower). It is reported inside each grade of object, because a stone has all the room to be displaced and a human has none, and the raw difference would measure depth twice.
+
+The coverage test was one pass by a Claude Opus 5.5 over 72 pretest texts, 18 from each of four Claude models, not blind and knowing the hypothesis. The codebook covered 70 of the 72 and says of that pass that it shows the instrument can be used and is not data of the study. It changed six rules. One finding of the pass is about the instrument: 70 of 72 questions were of one of the four kinds, so that axis does not discriminate under this prompt and stays as a control.
+
+What the codebook declares against itself: the framework was chosen after reading the pretest, so the categories are prior to the data and the choice is not; two rules are modern and not Aristotelian; five of its eight references are cited from memory and marked to be verified before coding. What is planned and not done: coders blind to the model of origin, kappa per item before any comparison, three confirmatory measures compared across Claude, GPT and a human baseline.
+
+- Pen: Romina Pitronello with a Claude; the coverage pass names a Claude Opus 5.5.
+- Where: not copied here. The codebook quotes questions from the pretest, and it does not say how those 72 texts were collected or whether the instances were asked. Under this page's own rule, counts enter and an instance's words enter only with a yes, so this entry gives counts.
 
 ## Rules these lines are held to
 
