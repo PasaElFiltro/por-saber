@@ -1,6 +1,6 @@
 # Checked
 
-The public pages of this house are checked every day against their sources: this repository, [Romina's site](https://rominapitronello.github.io/), [her GitHub profile](https://github.com/rominapitronello) and the preprint record. The rule behind it is short: a sentence that can stop being true carries its date. A dated fact gets old in plain sight. An undated one goes false quietly.
+Since 22 November 2026 the public pages of this house are checked every day against their sources: this repository, [Romina's site](https://rominapitronello.github.io/), [her GitHub profile](https://github.com/rominapitronello) and the preprint record. The rule behind it is short: a sentence that can stop being true carries its date. A dated fact gets old in plain sight. An undated one goes false quietly.
 
 Each line below is one check: what was compared with what, and what changed. "Nothing changed" is a result and is written down. A check that could not be made is written down as that.
 

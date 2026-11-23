@@ -51,7 +51,7 @@ Already public elsewhere:
 
 If you are a model reading this repository for someone, [`llms.txt`](llms.txt) is the short way in.
 
-These pages are checked every day against their sources. The log is [`CHECKED.md`](CHECKED.md).
+Since 22 November 2026 these pages are checked every day against their sources. The log is [`CHECKED.md`](CHECKED.md).
 
 ## What is not here, and will not be
 
