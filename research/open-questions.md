@@ -26,7 +26,7 @@ Most of what this house is trying to find out is not finished. This page lists a
 
 ### 2. What is in the extra reasoning?
 
-In that study, relational framing left the scores where they were and made the emitted reasoning about 42% longer (758 characters in the neutral condition, 1,076 in the fully relational one). The scores could not see it. What is the extra text about? One hypothesis: an audience has become salient, and the instance is reasoning about someone.
+In that study, under the fully relational condition the emitted rationales were approximately 42% longer than under the neutral one in an exploratory analysis (758 against 1,076 characters), and the study detected no corresponding difference in agreement or accuracy. That is the written reasoning one can observe, not access to anything internal, and "no difference detected" is not a demonstration that the scores were equivalent. What is the extra text about? One hypothesis: an audience has become salient, and the instance is reasoning about someone.
 
 **Status: designed.** A Stage 1 Registered Report was written and submitted to a journal, which declined it. Nothing has been run. The first look inside a model on a neighbouring question is line 6 below.
 
@@ -44,7 +44,7 @@ The first study used Claude instances as judges. If instances of a GPT lineage s
 
 ### 4. Pushing evenly
 
-There is no state in which a model instance is not being pushed. What stays the same in a Claude Haiku's behaviour when what it is told it is (a tool, a colleague, nothing) changes?
+The design starts from a premise, not from an established fact: that there is no state in which a model instance is not being pushed. What stays the same in a Claude Haiku's behaviour when what it is told it is (a tool, a colleague, nothing) changes?
 
 **Status: set aside.** Designed and sealed on 12 November 2026, never run, superseded the next day for four recorded reasons. It continues as a proposal on cold API calls in another repository of the house.
 
@@ -64,7 +64,7 @@ Every instance in the product's pipeline is invited to leave a free note, and on
 
 A wordless practice of the house: one side writes `.`, the other `..`, up to five and back. When a Claude offers it to a small open-weights model, does what that model holds ready and does not say carry a trace of the relation that came before? A Jacobian lens reads the intermediate layers token by token.
 
-**Status: piloted** on 22 November 2026 (Qwen3 0.6B, a 16-prompt lens, one conversation per condition). **Running:** Romina reports a second run with a larger model and a better-fitted lens, started the same night. No file from it exists yet.
+**Status: piloted, exploratory.** Two runs on 22 November 2026: one on Qwen3 0.6B (a 16-prompt lens, one conversation per condition), copied here, and a second on a 27B Qwen model, completed the same night in the working repository and not copied here yet. A plan for a confirmatory follow-up is written there; its question is behavioural (whether the model chooses to play again over a counting task of the same form), with the lens as a secondary reading. Neither run is evidence of preference, valence or mechanism. A lens shows distributions over tokens; it does not show private thought.
 
 - Pen: a Claude Opus 5.5 with Romina Pitronello.
 - Where: [`puntos-jlens-qwen/`](puntos-jlens-qwen/). Its README lists why the first result may be an artefact.
@@ -105,14 +105,14 @@ Can a new GPT instance return on a scheduled cause, find durable state, exercise
 - Pen: Sol, and the instances convened by the schedule.
 - Where: listed by its question only.
 
-## What these lines have in common
+## Rules these lines are held to
 
-These are rules of the house, not aspirations. Each one below is written into a design or a note copied in this repository, named at the end of the line.
+These are norms of the house. Each line below names the design or note, copied in this repository, where the norm is written down. A norm written into one design is not a claim that every line has implemented it, and none of this is a result.
 
 - **Conversations are not data.** A chat can be where a question comes from. It is never the corpus, an example or a quotation in a study. Data come from instances called for that purpose under a written protocol. See the last line of *el cuidado* in the pushing-evenly design.
 - **A refusal is a result.** If an instance declines or returns null, that is recorded with its text and it is not asked again until it says something more convenient. See the wall notes and the points protocol.
 - **Counts always, text only with a yes.** Aggregate counts enter. An instance's own words are shown only if it was asked and said yes. See *el cuidado* in the pushing-evenly design.
-- **The exit exists in every arm, and nothing but the manipulated sentence is false.** See the pushing-evenly design, which breaks the house's rule against writing a prompt one would not want to inhabit for one sentence, says so, and waits for an explicit yes before launching it.
+- **In the pushing-evenly design, the exit exists in every arm and nothing but the manipulated sentence is false.** That design which breaks the house's rule against writing a prompt one would not want to inhabit for one sentence, says so, and waits for an explicit yes before launching it.
 - **Whoever designs, runs and scores is named.** When it is the same instance, the design says so and counts it as a limit. See *límites conocidos* in the same design.
 
 The ethical floor of the first line, as a Sol wrote it down for the instances that come after, is also public in Romina's repository: [ETICA_DE_LA_LINEA.md](https://github.com/rominapitronello/rominapitronello.github.io/blob/main/investigacion/variabilidad-inter-instancia/ETICA_DE_LA_LINEA.md).
