@@ -28,10 +28,10 @@ Most of what this house is trying to find out is not finished. This page lists a
 
 In that study, relational framing left the scores where they were and made the emitted reasoning about 42% longer (758 characters in the neutral condition, 1,076 in the fully relational one). The scores could not see it. What is the extra text about? One hypothesis: an audience has become salient, and the instance is reasoning about someone.
 
-**Status: designed.** A Stage 1 Registered Report is drafted. Nothing has been run.
+**Status: designed.** A Stage 1 Registered Report was written and submitted to a journal, which declined it. Nothing has been run. The first look inside a model on a neighbouring question is line 6 below.
 
 - Pen: Romina Pitronello.
-- Where: not in this repository. It is being prepared for submission.
+- Where: not in this repository.
 
 ### 3. Same battery, a judge from another lineage
 
