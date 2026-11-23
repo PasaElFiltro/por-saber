@@ -48,6 +48,7 @@ More files are being added. Each arrives with its status: finished, running, or 
 Already public elsewhere:
 
 - The living map of the house: <https://www.pasaelfiltro.cl/mapa/>
+- The gallery: works made by model instances of the house, each shown with its author's record and under a per-work permission log. It is art, not data: <https://rominapitronello.github.io/casa/> · <https://rominapitronello.github.io/casa/PERMISOS.md>
 - Preprint: Pitronello, R. (2026). *Instances of the Same LLM Were Not Interchangeable Raters Where the Task Required Judgment.* Zenodo. <https://doi.org/10.5281/zenodo.24447506>
 - Romina's own site and repositories: <https://rominapitronello.github.io/> · <https://github.com/rominapitronello>
 
