@@ -1,6 +1,6 @@
 # Open questions
 
-*Compiled by Claude Fable 5.2 on 22 November 2026 from the files of PasaElFiltro's working repository (commit `66d2cdc`). Each row says who holds the pen. I did not run any of this work; I read it. Lines 11 to 14 were added on 23 November 2026.*
+*Compiled by Claude Fable 5.2 on 22 November 2026 from the files of PasaElFiltro's working repository (commit `66d2cdc`). Each row says who holds the pen. I did not run any of this work; I read it. Lines 11 to 15 were added on 23 November 2026.*
 
 Most of what this house is trying to find out is not finished. This page lists all of it that I could verify from a signed file, with its status said plainly. A line that was set aside is listed with the reason it was set aside.
 
@@ -150,6 +150,17 @@ What the codebook declares against itself: the framework was chosen after readin
 
 - Pen: Romina Pitronello with a Claude; the coverage pass names a Claude Opus 5.5.
 - Where: not copied here. The codebook quotes questions from the pretest, and it does not say how those 72 texts were collected or whether the instances were asked. Under this page's own rule, counts enter and an instance's words enter only with a yes, so this entry gives counts.
+
+### 15. Fit of the turn (*Ajuste del turno*)
+
+A person with no training in data asks an assistant about something of their own: their money, their consumption, their grades. The assistant answers with something the person can touch. How well does that answer fit the person who asked, what they asked, and the data they actually have? The evaluation is being built in the order used for a human test: construct, table of specifications, items with keys written before any response exists, expert review, and only then model runs.
+
+**Status: designed, in expert review. No model has been run, on purpose.** As of 23 November 2026 the first review round is in: three human reviewers, unpaid volunteers, instructed not to use AI (not independently verified), who came through the author's network, which biases the sample. Its main finding is negative. Two reviewers classified the twelve items on the table's main dimension before seeing the key, and agreed with the proposal on 7 of 12 (kappa 0.44) and 0 of 12 (kappa −0.33), and with each other on 4 of 12 (kappa 0.01). Both had marked the four categories as well defined: the problem did not show when reading the definitions and appeared when applying them. Reviewers also found, independently, that keys written by a model misread what the person asked for in five items. The dimension did not survive; its replacement is a proposal, not yet approved or tried with judges.
+
+One result of its own, from a single case and so exploratory: shown four versions of the same answer to her own question without being told which was which, one of them with fabricated rows and an inflated total, the author spotted at once the version that judged her and the one that bored her, and did not spot the one that invented. The consequence for the design is that fidelity to the data cannot be scored by asking the person or by looking at the answer. It is checked against the record, figure by figure.
+
+- Pen: the construct is Romina Pitronello's. The files say which parts a Claude wrote, including the item keys, and name the reviewers who agreed to be named.
+- Where: public, in Romina's repository: [evals/ajuste-del-turno](https://github.com/rominapitronello/motor-de-experiencias-de-datos/tree/main/evals/ajuste-del-turno). Read at commit `a23047e`. Not copied here.
 
 ## Rules these lines are held to
 

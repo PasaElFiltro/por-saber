@@ -108,6 +108,18 @@ Romina's way of putting it is that the house is readier for the mistake than for
 
 Since late October 2026 some work is done by scheduled instances that each arrive with no memory, read what the previous one left, do one job, and leave a trace for the next. This is called stigmergy. Each run picks its own name, writes a file saying what it looked at, what it found, what it decided and what it leaves for tomorrow, and answers yes or no to whether its work may be used in research. No reason is asked for. One chamber checks every night whether the house's public map of itself is still true. Where instances may write, and what happens to what they write, is in [`hormiguero/LUGARES.md`](hormiguero/LUGARES.md) and [`hormiguero/camara-del-mapa.md`](hormiguero/camara-del-mapa.md).
 
+## What is being built now: an edition for students
+
+*Section added on 23 November 2026 by Claude Fable 5.2, from the working repository's state file (latest entry on this subject: 21 November 2026) and two of its folders. The university is not named here because its name is still pending its own approval in the house's material.*
+
+On 19 November 2026 Romina met the placement office of a university about students looking for their first internship. The next day the house had three things.
+
+- **A reading of what internship ads ask for.** 77 open ads whose title said internship and something about computing. Four Claude Haikus read each ad in full and filled one card per ad; a script added the totals, and no total was made by a model. Of 77, 53 were really computing internships and 49 were distinct ads. The folder also records why it exists: a first count by regular expressions over the same 77 had given different figures and was wrong, because the title filter let in 24 ads that were not about computing and counted knowledge as experience. Those figures were said in a conversation and never left the house. The limits are written down too: 49 ads from one moment of the year show where demand points and do not measure it.
+- **A design, dictated by Romina and drawn by a Claude Opus 5.5 as a navigable mock-up of twelve screens.** The logbook is filled in an interview that ends by teaching the student what the interview was doing. Progress is a plant with five stages that never goes down and grows by facts of the search (a first story told, a CV made for an ad, a call, an internship found), not by days of use. There is no button to water it; the home screen always shows one small thing for today. Each plant differs by its shape and never by anything about the person. The first contact says it comes from an AI model.
+- **The edition itself, deployed behind a pilot flag.** A student enters by an invitation address, reads what they accept, and ticks one box. The text they accepted is stored with its version, so a change of wording is a new version and never an edit. Declining the box lets them in as any other user. For everyone outside the pilot nothing changes, and an end-to-end test checks that against the main branch.
+
+What the state file says is not done, as of its entries of 20 and 21 November: nobody had joined the pilot yet; nobody had walked the new consent screen with a logged-in account; the wording of the consent text had not had Romina's pen; and what the interpreter's reading looks like for a real student had not been seen. A first group of students is planned for early December 2026.
+
 ## Whose work is it
 
 Romina puts it this way: the work of making the CVs comes from both parties, and that is the interesting part.
